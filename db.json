@@ -1,7 +1,30 @@
 {
-    "users":[
-        {"id":1, "name":"Myra"}
-    ],
-    "albums":["a","b","c"],
-    "photos":[1,2,3,4]
+  "users": [
+    {
+      "id": 1,
+      "name": "Megha"
+    },
+    {
+      "id": 2,
+      "name": "Manohar"
+    },
+    {
+      "id": 3,
+      "name": "Harshitha"
+    },
+    {
+      "id": 4,
+      "name": "Akash"
+    },
+    {
+      "name": "Wayne Spinka",
+      "id": 5
+    },
+    {
+      "name": "Dr. Darrin Steuber Sr.",
+      "id": 6
+    }
+  ],
+  "albums": [],
+  "photos": []
 }
