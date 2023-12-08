@@ -5,23 +5,22 @@ import Button from "./Button";
 import Skeleton from "./Skeleton";
 import { useThunk } from "../hooks/use-thunk";
 
-
-
 function UsersList() {
-  const [ doFetchUsers, isLoadingUsers, loadingUsersError ] = useThunk(fetchUsers);
-  
-  const [ doCreateUser, isCreatingUser, creatingUserError ] = useThunk(addUser);
+  const [doFetchUsers, isLoadingUsers, loadingUsersError] =
+    useThunk(fetchUsers);
+
+  const [doCreateUser, isCreatingUser, creatingUserError] = useThunk(addUser);
 
   const { data } = useSelector((state) => {
     return state.users; // { data: [], isLoading: false, error: null }
   });
 
   useEffect(() => {
-   doFetchUsers();
+    doFetchUsers();
   }, [doFetchUsers]);
 
   const handleUserAdd = () => {
-   doCreateUser();
+    doCreateUser();
   };
 
   if (isLoadingUsers) {
@@ -44,12 +43,7 @@ function UsersList() {
     <div>
       <div className="flex flex-row justify-between m-3">
         <h1 className="m-2 text-xl">Users</h1>
-        {
-        isCreatingUser ? (
-          "Creating User..."
-        ) : (
-          <Button onClick={handleUserAdd}>+ Add User</Button>
-        )}
+        <Button loading={isCreatingUser} onClick={handleUserAdd}>+ Add User</Button>
         {creatingUserError && "Error creating user..."}
       </div>
       {renderedUsers}
