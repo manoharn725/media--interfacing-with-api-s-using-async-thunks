@@ -15,11 +15,10 @@ function AlbumsList({ user }) {
   if (isFetching) {
     content = <Skeleton className="h-10 w-full" times={3} />;
   } else if (error) {
-    content = <div>Error loading albums.</div>;
+    content = <div>Error loading albums...</div>;
   } else {
     content = data.map((album) => {
     return <AlbumsListItem key={album.id} album={album}/>
-
     });
   }
 
