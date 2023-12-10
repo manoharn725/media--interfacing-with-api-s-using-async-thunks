@@ -106,7 +106,23 @@
       "userId": 2,
       "title": "Luxurious Soft Computer",
       "id": 42
+    },
+    {
+      "userId": 3,
+      "title": "Luxurious Wooden Hat",
+      "id": 43
     }
   ],
-  "photos": []
+  "photos": [
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=324847339044864",
+      "id": 1
+    },
+    {
+      "albumId": 10,
+      "url": "https://loremflickr.com/150/150/abstract?lock=298234394181632",
+      "id": 2
+    }
+  ]
 }
