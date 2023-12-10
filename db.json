@@ -17,15 +17,70 @@
       "id": 6
     },
     {
-      "name": "Dr. Cristina Conn",
-      "id": 7
+      "name": "Marshall Ruecker",
+      "id": 8
     }
   ],
   "albums": [
     {
-      "id":10,
-      "title":"Hiking Trip",
+      "id": 10,
+      "title": "Hiking Trip",
       "userId": 3
+    },
+    {
+      "userId": 3,
+      "title": "Handcrafted Steel Bacon",
+      "id": 11
+    },
+    {
+      "userId": 3,
+      "title": "Small Fresh Ball",
+      "id": 12
+    },
+    {
+      "userId": 8,
+      "title": "Modern Granite Chair",
+      "id": 20
+    },
+    {
+      "userId": 2,
+      "title": "Gorgeous Wooden Shirt",
+      "id": 21
+    },
+   {
+      "userId": 4,
+      "title": "Rustic Plastic Fish",
+      "id": 23
+    },
+    {
+      "userId": 4,
+      "title": "Ergonomic Wooden Hat",
+      "id": 24
+    },
+    {
+      "userId": 2,
+      "title": "Bespoke Plastic Keyboard",
+      "id": 25
+    },
+    {
+      "userId": 4,
+      "title": "Modern Concrete Chicken",
+      "id": 26
+    },
+    {
+      "userId": 4,
+      "title": "Fantastic Concrete Mouse",
+      "id": 27
+    },
+    {
+      "userId": 2,
+      "title": "Gorgeous Metal Computer",
+      "id": 28
+    },
+    {
+      "userId": 2,
+      "title": "Generic Granite Soap",
+      "id": 33
     }
   ],
   "photos": []
